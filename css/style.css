@@ -333,6 +333,10 @@ header .menuIcon div {
   color: #fe6a0c;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* FOOTER */
 
 footer {

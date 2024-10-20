@@ -183,5 +183,3 @@ SearchBurgerText.addEventListener('input', filterSearchNameProduct);
 
 
 
-
-
