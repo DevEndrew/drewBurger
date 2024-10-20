@@ -21,6 +21,7 @@ const ComboBurgerB = document.getElementById('comboB');
 const TexasKid = document.getElementById('texasKid');
 const SpaceKid = document.getElementById('spaceKid');
 
+//Filtro de Hamburguer Normal
 function filterDrewBurgerNormal() {
     CocaCola.style.display = "none";
     Guarana.style.display = "none";
@@ -33,6 +34,7 @@ function filterDrewBurgerNormal() {
     ComboBurgerB.style.display = "none";
 }
 
+//Filtro de Hamburguer Kid
 function filterDrewBurgerKids() {
     TexasBurger.style.display = "none";
     EarthyBite.style.display = "none";
@@ -48,6 +50,7 @@ function filterDrewBurgerKids() {
 
 }
 
+//Filtro de Bebidas
 function filterDrewBurgerDrinks() {
     TexasBurger.style.display = "none";
     EarthyBite.style.display = "none";
@@ -59,6 +62,7 @@ function filterDrewBurgerDrinks() {
     ComboBurgerB.style.display = "none";
 }
 
+//Filtro de Combos
 function filterDrewBurgerCombos() {
         TexasBurger.style.display = "none";
         EarthyBite.style.display = "none";
@@ -73,6 +77,7 @@ function filterDrewBurgerCombos() {
         SpaceKid.style.display = "none";
 }
 
+//Filtro de todos os produtos
 function filterAllProducts(){
     
     TexasBurger.style.display = "block";
@@ -91,6 +96,7 @@ function filterAllProducts(){
 }
 
 
+//Função que filtra
 function SearchSelectFilter() {
 
     filterAllProducts(); 
@@ -114,6 +120,7 @@ function SearchSelectFilter() {
 
 }
 
+//Evento que faz a função de filtro funcionar
 SearchSelect.addEventListener('change', function(){
     SearchSelectFilter(SearchSelect.value);
 
